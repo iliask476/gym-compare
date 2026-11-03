@@ -1,0 +1,63 @@
+.hero {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 20px 8px;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0 0 8px;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  line-height: 1.15;
+}
+
+.hero p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+}
+
+.controls input[type='text'],
+.controls select {
+  padding: 11px 14px;
+  font-size: 1rem;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.controls input[type='text'] {
+  width: 100%;
+  max-width: 340px;
+}
+
+.controls input:focus,
+.controls select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.controls label {
+  color: var(--muted);
+}
+
+.gym-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 20px;
+  padding: 0 24px;
+}
+
+.status {
+  text-align: center;
+  color: var(--muted);
+}

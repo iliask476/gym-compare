@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "name": "Effort Gym",
+    "category": "Γυμναστήριο",
+    "address": "3is Orinis Taxiarchias 6, Zografou 157 73",
+    "rating": 5.0,
+    "ratingCount": 23,
+    "facilities": [
+      "Προπόνηση με προπονητή"
+    ],
+    "phone": "+30 698 189 6450",
+    "website": "https://bew9.setmore.com/",
+    "mapsUrl": "https://maps.google.com/?cid=7926874059563098672"
+  },
+  {
+    "id": 2,
+    "name": "JonnyFitnessClub",
+    "category": "Personal training",
+    "address": "Iasona Maratou 14, Zografou 157 71",
+    "rating": 4.9,
+    "ratingCount": 100,
+    "facilities": [
+      "Personal training"
+    ],
+    "phone": "+30 21 1015 5075",
+    "website": "https://jonnyfitnessclub.gr/",
+    "mapsUrl": "https://maps.google.com/?cid=8206140995824767007"
+  },
+  {
+    "id": 3,
+    "name": "Grind Zografou",
+    "category": "Γυμναστήριο / Pilates",
+    "address": "Papadiamantopoulou 141, Athina 115 27 (Ζωγράφου)",
+    "rating": 5.0,
+    "ratingCount": 10,
+    "facilities": [
+      "Pilates Reformer",
+      "Προπόνηση με προπονητή"
+    ],
+    "phone": "+30 21 0775 8244",
+    "website": "https://grindathens.gr/",
+    "mapsUrl": "https://maps.google.com/?cid=6194248036534014072"
+  },
+  {
+    "id": 4,
+    "name": "Δημοτικό Γυμναστήριο Ζωγράφου",
+    "category": "Δημοτικό γυμναστήριο",
+    "address": "Polifimou 2, Zografou 157 71",
+    "rating": 4.2,
+    "ratingCount": 104,
+    "facilities": [
+      "Μηχανήματα",
+      "Αποδυτήρια",
+      "Ντουζιέρες"
+    ],
+    "phone": "+30 21 0779 0555",
+    "website": "https://zografouculture.gr/project/dimotiko-gym/",
+    "mapsUrl": "https://maps.google.com/?cid=38756744829481422"
+  },
+  {
+    "id": 5,
+    "name": "Hyper Progressive Gym",
+    "category": "Γυμναστήριο",
+    "address": "Leof. Stratarchou Alexandrou Papagou 30, Zografou 157 71",
+    "rating": 4.5,
+    "ratingCount": 245,
+    "facilities": [
+      "Μηχανήματα",
+      "Ελεύθερα βάρη",
+      "Ημερήσιο εισιτήριο"
+    ],
+    "phone": "+30 21 0777 9990",
+    "website": "https://www.instagram.com/hyper_progressive_gym_/",
+    "mapsUrl": "https://maps.google.com/?cid=3283717018901983383"
+  },
+  {
+    "id": 6,
+    "name": "Fitness Hall",
+    "category": "Γυμναστήριο / Pilates",
+    "address": "Oulof Palme 29, Zografou 157 71",
+    "rating": 4.9,
+    "ratingCount": 158,
+    "facilities": [
+      "Cross Training",
+      "Pilates & Pilates Reformer",
+      "Personal Training",
+      "Group Training"
+    ],
+    "phone": "+30 2102542131",
+    "website": "https://booking.fitnesshall.gr/",
+    "mapsUrl": "https://maps.google.com/?cid=6421334932259528954"
+  },
+  {
+    "id": 7,
+    "name": "Zorzos Gym",
+    "category": "Γυμναστήριο",
+    "address": "Avidou 90, Zografou 157 71",
+    "rating": 4.6,
+    "ratingCount": 73,
+    "facilities": [
+      "Μηχανήματα",
+      "Ελεύθερα βάρη",
+      "Χώρος με στρώματα"
+    ],
+    "phone": "+30 21 0779 0829",
+    "website": "https://www.facebook.com/Gym-Zorzos-%CE%86%CE%BD%CF%89-%CE%99%CE%BB%CE%AF%CF%83%CE%B9%CE%B1-719389714885581/",
+    "mapsUrl": "https://maps.google.com/?cid=16186286584761808520"
+  },
+  {
+    "id": 8,
+    "name": "The Athenian Standard Fitness Club",
+    "category": "Γυμναστήριο",
+    "address": "Athanasiou Diakou 12, Zografou 157 72",
+    "rating": 5.0,
+    "ratingCount": 2,
+    "facilities": [
+      "Προπόνηση με προπονητή"
+    ],
+    "phone": "+30 21 0775 2805",
+    "website": "https://www.theathenianstandard.com/",
+    "mapsUrl": "https://maps.google.com/?cid=14261418645495260170"
+  },
+  {
+    "id": 9,
+    "name": "CrossZone14 – Functional Training / CrossFit",
+    "category": "CrossFit / Functional",
+    "address": "3is Orinis Taxiarchias 14, Zografou 157 72",
+    "rating": 5.0,
+    "ratingCount": 41,
+    "facilities": [
+      "CrossFit",
+      "Functional training",
+      "Personal training"
+    ],
+    "phone": "+30 21 1419 9324",
+    "website": "https://www.crosszone14.com/",
+    "mapsUrl": "https://maps.google.com/?cid=15065350701557846021"
+  },
+  {
+    "id": 10,
+    "name": "MYTHBUSTERS Crossfit",
+    "category": "CrossFit / Functional",
+    "address": "Silistrias 15, Zografou 157 72",
+    "rating": 5.0,
+    "ratingCount": 13,
+    "facilities": [
+      "CrossFit",
+      "Ομαδικά προγράμματα"
+    ],
+    "phone": "+30 694 828 9365",
+    "website": "https://www.managym.gr/gd/mythbusters",
+    "mapsUrl": "https://maps.google.com/?cid=17156462113677400021"
+  },
+  {
+    "id": 11,
+    "name": "141depotbox",
+    "category": "CrossFit / Yoga",
+    "address": "Agias Lavras 39, Zografou 157 73",
+    "rating": 4.9,
+    "ratingCount": 54,
+    "facilities": [
+      "CrossFit",
+      "Kick boxing",
+      "Yoga"
+    ],
+    "phone": "+30 21 6700 2095",
+    "website": "https://141depotbox.gr/",
+    "mapsUrl": "https://maps.google.com/?cid=1502717850602231084"
+  },
+  {
+    "id": 12,
+    "name": "FIGHT BOX2 EVOLUTION",
+    "category": "Πολεμικές τέχνες / Functional",
+    "address": "Ypolochagou Kavvatha 7, Zografou 157 73",
+    "rating": 5.0,
+    "ratingCount": 23,
+    "facilities": [
+      "Πολεμικές τέχνες",
+      "CrossFit / Functional training"
+    ],
+    "phone": "+30 694 506 0696",
+    "website": "https://www.fightbox.gr/",
+    "mapsUrl": "https://maps.google.com/?cid=9788143410522765502"
+  },
+  {
+    "id": 13,
+    "name": "WundaLife Pilates Studio",
+    "category": "Pilates / Yoga",
+    "address": "Athanasiou Diakou 18, Zografou 157 72",
+    "rating": 4.7,
+    "ratingCount": 56,
+    "facilities": [
+      "Pilates",
+      "Yoga"
+    ],
+    "phone": "+30 21 0775 0102",
+    "website": "https://www.wundalife-pilates-yoga.gr/",
+    "mapsUrl": "https://maps.google.com/?cid=13263445176670750239"
+  },
+  {
+    "id": 14,
+    "name": "BODY PROJECT",
+    "category": "Pilates",
+    "address": "Avidou 15, Zografou 157 71",
+    "rating": 5.0,
+    "ratingCount": 46,
+    "facilities": [
+      "Pilates Reformer"
+    ],
+    "phone": "+30 21 1406 9843",
+    "website": "https://bodyproject-pilates.com/",
+    "mapsUrl": "https://maps.google.com/?cid=12579510939386591525"
+  },
+  {
+    "id": 15,
+    "name": "NSV TRAINING Pilates Center",
+    "category": "Pilates / Functional",
+    "address": "Taxilou 91, Zografou 157 71",
+    "rating": 5.0,
+    "ratingCount": 52,
+    "facilities": [
+      "Pilates Reformer",
+      "Functional training",
+      "Μικρές ομάδες"
+    ],
+    "phone": "+30 21 0778 3151",
+    "website": "https://members.nsvtraining.gr/",
+    "mapsUrl": "https://maps.google.com/?cid=1638522135424153772"
+  },
+  {
+    "id": 16,
+    "name": "Norma Fitness",
+    "category": "Pilates / Γυμναστήριο",
+    "address": "Avidou 75, Zografou 157 71",
+    "rating": 5.0,
+    "ratingCount": 45,
+    "facilities": [
+      "Pilates Reformer",
+      "Ομαδικά προγράμματα",
+      "Yoga",
+      "Αποδυτήρια"
+    ],
+    "phone": "+30 21 1218 5452",
+    "website": "https://www.normafitness.gr/",
+    "mapsUrl": "https://maps.google.com/?cid=3289237981539164570"
+  },
+  {
+    "id": 17,
+    "name": "thePILATESLAB",
+    "category": "Pilates",
+    "address": "Xenias 1, Athina 115 27",
+    "rating": 5.0,
+    "ratingCount": 18,
+    "facilities": [
+      "Pilates (reformer, barrel, mat)",
+      "Εναλλακτικές θεραπείες"
+    ],
+    "phone": "+30 21 1406 3671",
+    "website": "http://www.thepilateslab.gr/",
+    "mapsUrl": "https://maps.google.com/?cid=11625680199237732168"
+  },
+  {
+    "id": 18,
+    "name": "Path Gym",
+    "category": "Personal training",
+    "address": "Taxilou 55, Athina 157 71",
+    "rating": 5.0,
+    "ratingCount": 72,
+    "facilities": [
+      "Personal training",
+      "Σύγχρονος εξοπλισμός"
+    ],
+    "phone": "+30 698 285 7916",
+    "website": "https://www.instagram.com/path.gym/",
+    "mapsUrl": "https://maps.google.com/?cid=17970244375858619763"
+  },
+  {
+    "id": 19,
+    "name": "ZRED Wellness Studio",
+    "category": "Personal training",
+    "address": "Alekou Panagouli 60, Zografou 157 73",
+    "rating": 5.0,
+    "ratingCount": 28,
+    "facilities": [
+      "Personal training",
+      "Κλιματισμός"
+    ],
+    "phone": "-",
+    "website": "https://www.instagram.com/zred_wellness_studio/",
+    "mapsUrl": "https://maps.google.com/?cid=114713656477848194"
+  },
+  {
+    "id": 20,
+    "name": "Fast Fitness Lab – Miha Bodytec",
+    "category": "EMS training",
+    "address": "Geor. Papandreou 20, Zografou 157 71",
+    "rating": 4.9,
+    "ratingCount": 69,
+    "facilities": [
+      "EMS (Miha Bodytec)",
+      "Προπόνηση με προπονητή"
+    ],
+    "phone": "+30 21 3044 8200",
+    "website": "http://www.fastfitnesslab.gr/",
+    "mapsUrl": "https://maps.google.com/?cid=17117531136553968486"
+  },
+  {
+    "id": 21,
+    "name": "Alterlife",
+    "category": "Γυμναστήριο / Pilates",
+    "address": "Polifimou 1 & Leof. Papagou 28, Zografou 157 71",
+    "rating": 4.5,
+    "ratingCount": 242,
+    "facilities": [
+      "Μηχανήματα cardio",
+      "Pilates",
+      "Προπονητές"
+    ],
+    "phone": "+30 21 0771 4175",
+    "website": "https://alterlife.gr/clubs/zografou/",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJFZ5f82O9oRQRd1ZDy-IsKgc"
+  },
+  {
+    "id": 22,
+    "name": "Athletix Development",
+    "category": "Γυμναστήριο",
+    "address": "Geor. Zografou 31, Zografou 157 72",
+    "rating": 5.0,
+    "ratingCount": 82,
+    "facilities": [
+      "Προπόνηση με προπονητή",
+      "Group προγράμματα"
+    ],
+    "phone": "+30 698 474 5721",
+    "website": "https://athletixdevelopment.com/",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJnRvgMg-XoRQRMFYjFKJ7VgI"
+  },
+  {
+    "id": 23,
+    "name": "Curves Zografou",
+    "category": "Γυναικείο γυμναστήριο",
+    "address": "Leof. Stratarchou Alexandrou Papagou 48, Zografou 157 71",
+    "rating": 4.6,
+    "ratingCount": 79,
+    "facilities": [
+      "Μόνο για γυναίκες",
+      "Προπόνηση με προπονητές"
+    ],
+    "phone": "+30 21 0748 4907",
+    "website": "https://curves.gr/",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJfYV0RfyXoRQRBzO3V4_DXPE"
+  },
+  {
+    "id": 24,
+    "name": "Black and White Gym",
+    "category": "Γυμναστήριο",
+    "address": "Gazias 14, Zografou 157 71",
+    "rating": 4.6,
+    "ratingCount": 98,
+    "facilities": [
+      "Ελεύθερα βάρη",
+      "Μηχανήματα",
+      "Personal & group training"
+    ],
+    "phone": "+30 21 0777 9880",
+    "website": "https://www.facebook.com/p/Black-White-Gym-Ilisia-100046395596422/?locale=el_GR",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJtUIRpFm9oRQRQtsoNShlwBc"
+  },
+  {
+    "id": 25,
+    "name": "Body Nice",
+    "category": "Γυμναστήριο / Pilates",
+    "address": "Geor. Papandreou 88, Zografou 115 27",
+    "rating": 4.9,
+    "ratingCount": 30,
+    "facilities": [
+      "Pilates Reformer",
+      "Μηχανήματα",
+      "Ελεύθερα βάρη"
+    ],
+    "phone": "+30 21 0775 3376",
+    "website": "https://www.bodynice.gr/",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ-6pDh_iXoRQRZFsKYGScjPE"
+  },
+  {
+    "id": 26,
+    "name": "FDC The Fitness Club",
+    "category": "Γυμναστήριο / Pilates",
+    "address": "Geor. Papandreou 42, Zografou 157 72",
+    "rating": 4.9,
+    "ratingCount": 85,
+    "facilities": [
+      "Pilates",
+      "Personal & semi-personal",
+      "Group προγράμματα"
+    ],
+    "phone": "+30 698 043 8750",
+    "website": "https://fdctheclub.com/",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ-QoW1P2XoRQRlmzqcTaMfhU"
+  },
+  {
+    "id": 27,
+    "name": "UNIFIT",
+    "category": "Γυμναστήριο / Pilates",
+    "address": "Grigoriou Kousidi 87, Zografou 157 72",
+    "rating": 5.0,
+    "ratingCount": 12,
+    "facilities": [
+      "Functional training",
+      "Pilates",
+      "Μηχανήματα"
+    ],
+    "phone": "+30 21 2810 5014",
+    "website": "https://gymscouter.com/gym/unifit",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ_WzID_KXoRQRlUvKBw2k8YY"
+  },
+  {
+    "id": 28,
+    "name": "Nick's Health Club",
+    "category": "Γυμναστήριο",
+    "address": "Grigoriou Kousidi 89, Zografou 157 72",
+    "rating": 4.6,
+    "ratingCount": 36,
+    "facilities": [
+      "Μηχανήματα",
+      "Ασκήσεις με το σωματικό βάρος",
+      "Αποδυτήρια",
+      "Κλιματισμός"
+    ],
+    "phone": "+30 21 1017 3464",
+    "website": "https://gymscouter.com/gym/nicks-health-club",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ3ZssHO6XoRQRUP_Psby38FI"
+  },
+  {
+    "id": 29,
+    "name": "Bold Fitness",
+    "category": "Γυμναστήριο",
+    "address": "Ammochostou 12, Zografou 157 71",
+    "rating": 5.0,
+    "ratingCount": 2,
+    "facilities": [],
+    "phone": "+30 21 0771 7203",
+    "website": "https://boldfitness.gr/",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5VgoKACXoRQRxeeaIYA1S6Q"
+  },
+  {
+    "id": 30,
+    "name": "Yava Ζωγράφου",
+    "category": "Γυμναστήριο",
+    "address": "Lochagou Spiliotopoulou 9, Zografou 157 73",
+    "rating": 3.5,
+    "ratingCount": 278,
+    "facilities": [
+      "Μηχανήματα",
+      "Ελεύθερα βάρη"
+    ],
+    "phone": "+30 21 0747 3493",
+    "website": "https://www.yava.gr/content/zografou/",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJR2BX2TWXoRQRR5paWS8gpQE"
+  },
+  {
+    "id": 31,
+    "name": "Healing Circle Yoga Studio",
+    "category": "Yoga",
+    "address": "Timandras 14 & Anakreontos, Zografou 157 71",
+    "rating": 5.0,
+    "ratingCount": 94,
+    "facilities": [
+      "Yoga",
+      "Prenatal yoga"
+    ],
+    "phone": "+30 697 337 4907",
+    "website": "https://healingcircleyogastudio.com/",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJEci55CRYk2gRtx3Z0NvcGPM"
+  },
+  {
+    "id": 32,
+    "name": "Somatica Yoga",
+    "category": "Yoga",
+    "address": "Taxilou & Sidonos, Zografou 157 71",
+    "rating": 5.0,
+    "ratingCount": 4,
+    "facilities": [
+      "Yoga",
+      "Μικρές ομάδες"
+    ],
+    "phone": "+30 693 729 8386",
+    "website": "https://www.somatica.gr/co/somatica-zografou/?wl=true",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjZbdfQCXoRQR3yYf1J8Ws5k"
+  },
+  {
+    "id": 33,
+    "name": "+αίσθηση – Studio Yoga & Pilates",
+    "category": "Yoga / Pilates",
+    "address": "Papakonstantinou 17, Zografou 157 71",
+    "rating": 4.8,
+    "ratingCount": 25,
+    "facilities": [
+      "Yoga",
+      "Pilates",
+      "Μαθήματα για παιδιά"
+    ],
+    "phone": "+30 21 0779 9508",
+    "website": "https://www.synaisthisi.gr/",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJhdbW4OKXoRQRZbcGRMac778"
+  },
+  {
+    "id": 34,
+    "name": "Healing Light",
+    "category": "Yoga",
+    "address": "Grigoriou Kousidi 81, Zografou 157 72",
+    "rating": 5.0,
+    "ratingCount": 16,
+    "facilities": [
+      "Yoga",
+      "Reiki"
+    ],
+    "phone": "+30 21 3049 3978",
+    "website": "https://www.healinglightyogastudio.gr/co/healing-light-yoga-studio-zografou/?wl=true",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJd2HxCgCXoRQR01k3gcvJmwE"
+  },
+  {
+    "id": 35,
+    "name": "Fighting Spirit",
+    "category": "Πολεμικές τέχνες",
+    "address": "Ozolon 1, Zografou 157 71",
+    "rating": 5.0,
+    "ratingCount": 35,
+    "facilities": [
+      "Kick boxing",
+      "Taekwondo",
+      "Αυτοάμυνα",
+      "Αποδυτήρια"
+    ],
+    "phone": "+30 690 955 6797",
+    "website": "https://fightingspirit.gr/",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJLW0PaFe9oRQReFai7AFh0es"
+  },
+  {
+    "id": 36,
+    "name": "Tigerart – Fu Jow Pai Kung Fu & Kickboxing",
+    "category": "Πολεμικές τέχνες",
+    "address": "Leof. Stratarchou Alexandrou Papagou 120, Zografou 157 72",
+    "rating": 5.0,
+    "ratingCount": 93,
+    "facilities": [
+      "Kung fu (Fu Jow Pai)",
+      "Kickboxing",
+      "Μαθήματα για παιδιά"
+    ],
+    "phone": "+30 21 0777 5930",
+    "website": "https://tigerart.gr/",    
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJwxOHC-OXoRQR6lqXUhHMHIs"
+  },
+  {
+    "id": 37,
+    "name": "Drakas Team – Taekwondo, Kick Boxing, Personal Training",
+    "category": "Πολεμικές τέχνες",
+    "address": "Papadiamantopoulou 164, Zografou 157 73",
+    "rating": 5.0,
+    "ratingCount": 29,
+    "facilities": [
+      "Taekwondo",
+      "Kick boxing",
+      "Personal training"
+    ],
+    "phone": "+30 694 503 1386",
+    "website": "https://www.drakasteam.gr/co/drakas-team-zografoy/?wl=true",    
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJuYPT5E-XoRQRB-9uJSNpr80"
+  },
+  {
+    "id": 38,
+    "name": "Ilysiakos Athletics Club – Boxing & Kick Boxing",
+    "category": "Πολεμικές τέχνες",
+    "address": "Aradou 1, Zografou 157 71",
+    "rating": 5.0,
+    "ratingCount": 19,
+    "facilities": [
+      "Πυγμαχία",
+      "Kick boxing"
+    ],
+    "phone": "-",
+    "website": "https://www.facebook.com/ilisiakosboxkickbox/", 
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ18MZcFi9oRQRYeuy8tck_Co"
+  },
+  {
+    "id": 39,
+    "name": "Evolution Team Athens",
+    "category": "Πολεμικές τέχνες",
+    "address": "Athanasiou Diakou 12, Zografou 157 72",
+    "rating": 4.8,
+    "ratingCount": 25,
+    "facilities": [
+      "Πυγμαχία",
+      "Δωρεάν δοκιμαστικό μάθημα"
+    ],
+    "phone": "+30 697 331 0494",
+    "website": "https://www.facebook.com/evolutionteamathens/?locale=el_GR",        
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJRRNjsLyXoRQROps8sOfThQ4"
+  }
+]

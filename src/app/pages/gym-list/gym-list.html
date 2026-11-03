@@ -1,0 +1,33 @@
+<section class="hero">
+  <h1>Βρες το γυμναστήριό σου στον Ζωγράφου</h1>
+  <p>Σύγκρινε {{ gymService.gyms().length }} γυμναστήρια και studios σε μία σελίδα.</p>
+</section>
+
+<div class="controls">
+  <input
+    type="text"
+    placeholder="Αναζήτηση με όνομα ή διεύθυνση..."
+    aria-label="Αναζήτηση γυμναστηρίου"
+    (input)="onSearch($event)"
+  />
+
+  <select aria-label="Ταξινόμηση" (change)="onSortChange($event)">
+    <option value="default">Χωρίς ταξινόμηση</option>
+    <option value="price">Τιμή (φθηνότερα πρώτα)</option>
+    <option value="rating">Βαθμολογία (υψηλότερη πρώτα)</option>
+  </select>
+</div>
+
+@if (gymService.loading()) {
+  <p class="status">Φόρτωση...</p>
+} @else if (gymService.error()) {
+  <p class="status">Σφάλμα φόρτωσης δεδομένων. Δοκίμασε ξανά αργότερα.</p>
+} @else {
+  <div class="gym-list">
+    @for (gym of filteredGyms(); track gym.id) {
+      <app-gym-card [gym]="gym" />
+    } @empty {
+      <p class="status">Δεν βρέθηκαν γυμναστήρια.</p>
+    }
+  </div>
+}

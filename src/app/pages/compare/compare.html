@@ -1,0 +1,56 @@
+<a routerLink="/" class="back">← Πίσω στη λίστα</a>
+
+@if (gyms().length === 0) {
+  <p class="empty">Δεν έχεις επιλέξει γυμναστήρια για σύγκριση.</p>
+} @else {
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          @for (g of gyms(); track g.id) {
+            <th>{{ g.name }}</th>
+          }
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Διεύθυνση</th>
+          @for (g of gyms(); track g.id) {
+            <td>{{ g.address }}</td>
+          }
+        </tr>
+        <tr>
+          <th>Τιμή / μήνα</th>
+          @for (g of gyms(); track g.id) {
+            <td [class.best]="g.id === cheapestId()">{{ g.monthlyPrice ? g.monthlyPrice + '€' : '—' }}</td>          }
+        </tr>
+        <tr>
+          <th>Βαθμολογία</th>
+          @for (g of gyms(); track g.id) {
+            <td [class.best]="g.id === bestRatedId()">{{ g.rating }} ({{ g.ratingCount }} κριτικές Google)</td>          }
+        </tr>
+<tr>
+  <th>Κατηγορία</th>
+  @for (g of gyms(); track g.id) {
+    <td>{{ g.category }}</td>
+  }
+</tr>
+        <tr>
+          <th>Παροχές</th>
+          @for (g of gyms(); track g.id) {
+            <td>{{ g.facilities.join(', ') }}</td>
+          }
+        </tr>
+        <tr>
+          <th></th>
+          @for (g of gyms(); track g.id) {
+            <td><button type="button" (click)="compareService.toggle(g.id)">Αφαίρεση</button></td>
+          }
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p><button type="button" (click)="compareService.clear()">Καθαρισμός όλων</button></p>
+}

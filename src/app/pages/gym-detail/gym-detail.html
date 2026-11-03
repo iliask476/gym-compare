@@ -1,0 +1,87 @@
+<a routerLink="/" class="back">← Πίσω στη λίστα</a>
+
+@if (gymService.loading()) {
+  <p class="status">Φόρτωση...</p>
+} @else {
+  @if (gym(); as g) {
+    <div class="detail">
+      <span class="category">{{ g.category }}</span>
+      <h2>{{ g.name }}</h2>
+      <p class="address">{{ g.address }}</p>
+
+      <p class="rating">
+        ★ {{ g.rating }}
+        <span class="count">({{ g.ratingCount }} κριτικές Google)</span>
+      </p>
+
+      @if (g.monthlyPrice) {
+        <p class="price">{{ g.monthlyPrice }}€ / μήνα</p>
+      } @else {
+        <p class="price-missing">Τιμή: επικοινωνήστε με το γυμναστήριο</p>
+      }
+
+      <div class="contact">
+        @if (g.phone) {
+          <a class="contact-btn" [href]="'tel:' + g.phone">📞 {{ g.phone }}</a>
+        }
+        @if (g.website) {
+          <a class="contact-btn" [href]="g.website" target="_blank" rel="noopener">🌐 Ιστοσελίδα</a>
+        }
+        @if (g.mapsUrl) {
+          <a class="contact-btn" [href]="g.mapsUrl" target="_blank" rel="noopener">📍 Δες στον χάρτη</a>
+        }
+      </div>
+
+      @if (g.facilities.length > 0) {
+        <h3>Παροχές</h3>
+        <ul>
+          @for (facility of g.facilities; track facility) {
+            <li>{{ facility }}</li>
+          }
+        </ul>
+      }
+
+      <h3>Αξιολογήσεις</h3>
+
+      @for (r of reviews(); track $index) {
+        <div class="review">
+          <strong>{{ r.author }}</strong> ({{ r.rating }}/5)
+          <p>{{ r.comment }}</p>
+        </div>
+      } @empty {
+        <p>Δεν υπάρχουν αξιολογήσεις ακόμα.</p>
+      }
+
+      <h3>Γράψε αξιολόγηση</h3>
+      <form [formGroup]="form" (ngSubmit)="submit()">
+        <label>
+          Όνομα
+          <input type="text" formControlName="author" />
+        </label>
+        @if (form.controls.author.touched && form.controls.author.invalid) {
+          <small class="error">Το όνομα είναι υποχρεωτικό (τουλάχιστον 2 χαρακτήρες).</small>
+        }
+
+        <label>
+          Βαθμός (1-5)
+          <input type="number" formControlName="rating" min="1" max="5" />
+        </label>
+        @if (form.controls.rating.touched && form.controls.rating.invalid) {
+          <small class="error">Ο βαθμός πρέπει να είναι από 1 έως 5.</small>
+        }
+
+        <label>
+          Σχόλιο
+          <textarea formControlName="comment" rows="3"></textarea>
+        </label>
+        @if (form.controls.comment.touched && form.controls.comment.invalid) {
+          <small class="error">Το σχόλιο θέλει τουλάχιστον 10 χαρακτήρες.</small>
+        }
+
+        <button type="submit">Αποστολή</button>
+      </form>
+    </div>
+  } @else {
+    <p class="status">Το γυμναστήριο δεν βρέθηκε.</p>
+  }
+}

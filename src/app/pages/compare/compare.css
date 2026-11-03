@@ -1,0 +1,63 @@
+.back,
+.empty {
+  display: block;
+  margin: 0 24px 16px;
+}
+
+.empty {
+  color: var(--muted);
+}
+
+.table-wrap {
+  overflow-x: auto;
+  padding: 0 24px;
+}
+
+table {
+  width: 100%;
+  min-width: 500px;
+  border-collapse: collapse;
+  background: var(--surface);
+}
+
+th,
+td {
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid var(--border);
+}
+
+thead th {
+  color: var(--accent);
+}
+
+tbody th {
+  white-space: nowrap;
+  color: var(--muted);
+  background: var(--surface-2);
+}
+
+.best {
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(198, 255, 0, 0.1);
+}
+
+p {
+  padding: 0 24px;
+}
+
+button {
+  padding: 6px 12px;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}

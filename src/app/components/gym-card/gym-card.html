@@ -1,0 +1,35 @@
+<div class="card">
+  <span class="category">{{ gym().category }}</span>
+  <h2>{{ gym().name }}</h2>
+  <p class="address">{{ gym().address }}</p>
+
+  <p class="rating">
+    ★ {{ gym().rating }}
+    <span class="count">({{ gym().ratingCount }} κριτικές Google)</span>
+  </p>
+
+  @if (gym().monthlyPrice) {
+    <p class="price">{{ gym().monthlyPrice }}€ / μήνα</p>
+  } @else {
+    <p class="price-missing">Τιμή: επικοινωνήστε με το γυμναστήριο</p>
+  }
+
+  <div class="chips">
+    @for (f of gym().facilities; track f) {
+      <span class="chip">{{ f }}</span>
+    }
+  </div>
+
+  <div class="actions">
+    <a [routerLink]="['/gym', gym().id]">Λεπτομέρειες →</a>
+
+    <button
+      type="button"
+      (click)="compare.toggle(gym().id)"
+      [class.selected]="compare.isSelected(gym().id)"
+      [disabled]="!compare.isSelected(gym().id) && compare.isFull()"
+    >
+      {{ compare.isSelected(gym().id) ? '✓ Στη σύγκριση' : '+ Σύγκριση' }}
+    </button>
+  </div>
+</div>

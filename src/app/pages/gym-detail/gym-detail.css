@@ -1,0 +1,126 @@
+a {
+  display: inline-block;
+  margin: 0 24px 16px;
+}
+
+.status {
+  text-align: center;
+  color: var(--muted);
+}
+
+.detail {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.detail h2 {
+  margin-top: 0;
+}
+
+.price {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.review {
+  padding: 10px 0;
+  border-top: 1px solid var(--border);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: var(--muted);
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  font: inherit;
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+form button {
+  align-self: flex-start;
+  padding: 10px 18px;
+  font-weight: 600;
+  color: var(--accent-text);
+  background: var(--accent);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.category {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.address {
+  margin: 0 0 10px;
+  color: var(--muted);
+}
+
+.rating {
+  font-weight: 600;
+}
+
+.count {
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.price-missing {
+  color: var(--muted);
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.contact-btn {
+  display: inline-block;
+  margin: 0;
+  padding: 9px 14px;
+  font-size: 0.9rem;
+  color: var(--text);
+  text-decoration: none;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.contact-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
