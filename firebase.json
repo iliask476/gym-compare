@@ -1,16 +1,17 @@
 {
   "hosting": {
+    "site": "gymszografou",
     "public": "dist/gym-compare/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
-"rewrites": [
-  {
-    "source": "**",
-    "destination": "/index.csr.html"
-  }
-]
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }
